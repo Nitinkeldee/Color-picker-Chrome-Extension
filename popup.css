@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgba(233, 97, 160, 0.8),
+    rgba(79, 195, 247, 0.8)
+  );
+  border-radius: 10px;
+}
+
+html {
+  background: linear-gradient(
+    to bottom right,
+    rgba(233, 97, 160, 0.8),
+    #ffffff,
+    transparent 100%
+  );
+}
+
+.wrapper {
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.changeColorBtn {
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  color: #e74c3c;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.colorGrid {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+}
+
+.selectedColor {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+  gap: 200px;
+}
+
+.colorValue {
+  font-weight: bold;
+}
+.changeColorBtn {
+  color: rgba(233, 97, 160, 0.8);
+}
