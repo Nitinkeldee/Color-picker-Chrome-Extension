@@ -22,3 +22,5 @@ If you find any bugs or issues with Color Picker, please feel free to submit an 
 
 License
 This project is licensed under the MIT License.
+
+Easy to use !!
